@@ -5626,3 +5626,45 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'src'
 [2024-05-01T13:54:36.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_data_dag.py
 [2024-05-01T13:54:36.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_dag.py took 0.067 seconds
+[2024-05-01T13:55:06.900+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:06.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_dag.py for tasks to queue
+[2024-05-01T13:55:06.914+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:55:06.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:06.939+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:55:06.932+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/load_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_data_dag.py", line 7, in <module>
+    from src.utils import  load_data
+ModuleNotFoundError: No module named 'src'
+[2024-05-01T13:55:06.942+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:07.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_dag.py took 0.170 seconds
+[2024-05-01T13:55:37.144+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:37.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_dag.py for tasks to queue
+[2024-05-01T13:55:37.150+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:55:37.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:37.158+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:55:37.156+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/load_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_data_dag.py", line 7, in <module>
+    from src.utils import  load_data
+ModuleNotFoundError: No module named 'src'
+[2024-05-01T13:55:37.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:55:37.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_dag.py took 0.057 seconds
+[2024-05-01T13:56:07.457+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:56:07.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_dag.py for tasks to queue
+[2024-05-01T13:56:07.470+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:56:07.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:56:07.496+0000] {logging_mixin.py:188} INFO - [2024-05-01T13:56:07.485+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/load_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_data_dag.py", line 7, in <module>
+    from src.utils import  load_data
+ModuleNotFoundError: No module named 'src'
+[2024-05-01T13:56:07.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_data_dag.py
+[2024-05-01T13:56:07.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_dag.py took 0.163 seconds
